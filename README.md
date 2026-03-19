@@ -1,6 +1,6 @@
 # AsyncTrader
 
-![Description of image](main_diagram.png)
+![Description of image](asynctrader.png)
 
 # AsyncTrader: Asynchronous Multi-Agent Reinforcement Learning for P2P Energy Trading
 
