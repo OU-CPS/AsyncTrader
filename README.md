@@ -17,3 +17,22 @@ To address this challenge, we propose AsyncTrader, an asynchronous MARL framewor
 ## Data
 We obtain our data from [**Pecan Street**][https://www.pecanstreet.org/dataport/ ].
 
+
+
+## Environment and Framework
+AsyncTrader is implemented as a **Gym/Gymnasium-style multi-agent environment** for reproducible reinforcement learning research in residential energy systems.  
+The environment models each household as an autonomous trading agent with local demand, solar generation, optional battery storage, and asynchronous communication constraints.
+
+### Environment highlights
+- **Asynchronous macro-action control** for event-driven decision making
+- **Household-level local observations** with partial market context
+- **Battery-aware trading and storage dynamics**
+- **Time-varying electricity pricing and peer trading logic**
+- **Support for unreliable communication, stale observations, and intermittent agent updates**
+- **Benchmark-ready setup** for comparing synchronous and asynchronous MARL methods
+
+This design makes AsyncTrader suitable for studying:
+- peer-to-peer energy trading
+- asynchronous multi-agent reinforcement learning
+- communication-efficient coordination
+- robust decentralized control under partial observability
